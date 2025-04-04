@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busy Buy - E-Commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #d283fa;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .category-menu {
+            display: flex;
+            justify-content: space-around;
+            padding: 12px;
+            background: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .category-menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .banner {
+            background: linear-gradient(to right, #d8bfd8, #ffb5c0, #333);
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .top-offers {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .offer-items {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .offer-items img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .offer-items img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <div class="logo">Busy Buy</div>
+        <div class="nav-links">
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+            <a href="#">Cart</a>
+            <a href="#">Become a Seller</a>
+        </div>
+    </header>
+    <nav class="category-menu">
+        <a href="#">Mobiles</a>
+        <a href="#">Fashion</a>
+        <a href="#">Electronics</a>
+        <a href="#">Home & Furniture</a>
+        <a href="#">Appliances</a>
+        <a href="#">Flight Bookings</a>
+        <a href="#">Beauty & Toys</a>
+        <a href="#">Two Wheelers</a>
+    </nav>
+    <div class="content">
+        <section class="banner">
+            <div class="banner-text">
+                <h2>Sale Offers on Flights</h2>
+                <p>Fares From ₹1,199</p>
+            </div>
+        </section>
+
+        <section class="top-offers">
+            <h2>Top Offers!</h2>
+            <div class="offer-items">
+                <div>
+                    <img src="images/saree.jpg" alt="Saree">
+                    <p>Saree</p>
+                </div>
+                <div>
+                    <img src="images/bag.jpg" alt="Bag">
+                    <p>Bag</p>
+                </div>
+                <div>
+                    <img src="images/shoe1.jpg" alt="Shoes">
+                    <p>Shoes</p>
+                </div>
+                <div>
+                    <img src="images/sneakers.jpg" alt="Sneakers">
+                    <p>Sneakers</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <footer>
+        <p>© 2025 Busy Buy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
